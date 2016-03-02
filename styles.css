@@ -1,0 +1,19 @@
+.post {
+    border: 1px solid gray;
+}
+
+.post>div:first-child{
+    background: lightblue;
+}
+.post>div:last-child{
+    background: lightcoral;
+}    
+
+.post>div{
+    padding: 10px;
+}
+
+.highlighted {
+    background-color: yellow;
+    color: green;
+}
